@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Dashboard - PiggyVest</title>
+	<img src="piggyvest task/logo-main-web-shifted-min.png" width="100px" height="100px">
+</head>
+
+<body>
+
+<h2>Create a Secure Account</h2> 
+
+<p>Welcome to the future of Savings & Investments</p>
+
+
+<form action="processform.php" method="POST">
+       
+		<p>
+			<label for="Full_name">Full Name</label><br />
+			 <input type="text" name="Full_name" placeholder="Full Name" />
+		</p>
+
+		<p>
+			<label for="email">Email Address</label><br />
+			 <input type="email" name="Email_Address" placeholder="Email Adress" required="" />
+		</p>
+
+		<p>
+			<label for="phone_number">Phone Number</label><br />
+			<input type="tel" name="phone_number" placeholder="Phone Number" />
+		</p>
+		<p>
+			<label for="password">Password</label><br />
+			<input type="password" name="password" placeholder="Password" />
+		</p>
+		<p>
+			<label for="promocode">Referrer Phone or Promo Code (Optional)</label><br />
+			<input type="text" name="promocode" placeholder="Referrer Phone or Code " />
+		</p>
+		<p>
+                <label for="department">How Did You Hear About Us? (Optional)</label><br />
+
+                 <select name="department">
+                 	<option>Click To Select</option>
+                    <option>Facebook</option>
+                    <option>Twitter</option>
+                    <option>Instagram</option>
+                    <option>Friend/Family/Co-worker Referral</option>
+                    <option>Google Search</option>
+                    <option>Google Playstore</option>
+                    <option>Online Blog</option>
+                    <option>Local Newspaper</option>
+                    <option>At an event</option>
+                    <option>Others</option>
+                  </select>
+            </p>
+        
+         <button type="submit">Create Account</button>
+
+         <p>Already have an account? Log in</p>
+
+</form>
+
+</body>
